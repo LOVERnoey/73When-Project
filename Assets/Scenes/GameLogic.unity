@@ -1253,7 +1253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 1
-  groundDrag: 5
+  groundDrag: 0.7
   playerHeight: 2
   whatIsGround:
     serializedVersion: 2
