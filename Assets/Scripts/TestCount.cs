@@ -40,6 +40,9 @@ public class TestCount : MonoBehaviour, IDataPersistence
             {
                 textMeshPro.text = "Count: " + count;
             }
+
+            // Save the game after incrementing the count
+            DataPersistenceManager.instance.SaveGame();
         }
     }
 }
